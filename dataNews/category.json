@@ -1,0 +1,8 @@
+[{"id":1, "id_parent":0, "name":"Th\u1eddi S\u1ef1", "url":"thoi+su"},
+ {"id":2, "id_parent":0, "name":"Ph\u00e1p Lu\u1eadt", "url":"phap+luat"},
+ {"id":3, "id_parent":0, "name":"Th\u1ebf Gi\u1edbi", "url":"the+gioi"},
+ {"id":4, "id_parent":0, "name":"Kinh Doanh", "url":"kinh+doanh"},
+ {"id":5, "id_parent":0, "name":"C\u00f4ng Ngh\u1ec7", "url":"cong+nghe"},
+ {"id":6, "id_parent":0, "name":"Th\u1ec3 Thao", "url":"the+thao"},
+ {"id":7, "id_parent":0, "name":"Gi\u1ea3i Tr\u00ed ", "url":"giai+tri"},
+ {"id":8, "id_parent":0, "name":"S\u1ed1ng Tr\u1ebb", "url":"song+tre"}]

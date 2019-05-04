@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+    <!-- Base Define -->
+    <definition name="defaultlayout" template="/WEB-INF/layouts/defaultLayout.jsp">
+     <put-attribute name="header" value="/WEB-INF/layouts/header.jsp"></put-attribute>
+    <put-attribute name="banner" value="/WEB-INF/layouts/banner.jsp"></put-attribute>
+    <put-attribute name="body" ></put-attribute>
+    <put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp"></put-attribute>
+    </definition>
+    <definition name="defaultlayoutUs" template="/WEB-INF/layouts/defaultLayoutUs.jsp">
+     <put-attribute name="header" value="/WEB-INF/layouts/header.jsp"></put-attribute>
+    <put-attribute name="body" ></put-attribute>
+    <put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp"></put-attribute>
+    </definition>
+    
+     <definition name="defaultlayoutAdmin" template="/WEB-INF/views/admin/layout/defaultLayout.jsp">
+     <put-attribute name="menu" value="/WEB-INF/views/admin/layout/menu.jsp"></put-attribute>
+  
+    <put-attribute name="body" ></put-attribute>    
+    </definition>
+    
+    
+
+    <definition name="home" extends="defaultlayout">
+      <put-attribute name="body" value="/WEB-INF/views/index.jsp" />  
+    </definition>
+    <definition name="listcontent" extends="defaultlayoutUs">
+      <put-attribute name="body" value="/WEB-INF/views/listcontent.jsp" />  
+    </definition>
+    <definition name="content" extends="defaultlayoutUs">
+      <put-attribute name="body" value="/WEB-INF/views/content.jsp" />  
+    </definition>
+
+</tiles-definitions> 
